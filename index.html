@@ -10,7 +10,114 @@
 </head>
 <body>
     
-    <script type="text/javascript" src="js/script.js"></script>
+    <div class="container">
 
+        <!-- INIZIO HEADER -->
+        <header>
+            <div class="background_header">
+                <h1>Create Your Burger</h1>
+            </div>
+        </header>
+        <!-- FINE HEADER -->
+
+        <!-- INIZIO MAIN -->
+        <main>
+            <section id="burger">
+
+                <!-- INIZIO nome burger -->
+                <div>
+                    <label for="nome-burger"></label>
+                    <input id="nome-burger" type="text" placeholder="Name Your Burger">
+                </div>
+                <!-- FINE nome burger -->
+
+                <!-- INIZIO ingredienti -->
+                <div id="ingredienti">                          
+                    <h3>Ingredients</h3>
+                    <ul class="ingredients">
+                        
+                        <li class="ingredient">
+                            <div class="box-img">
+                                <img src="img/cheese.svg" alt="">
+                            </div>
+                            <label for="cheese">cheese ($15)</label>
+                            <input id="cheese" type="checkbox" value="15">
+                        </li>
+
+                        <li class="ingredient">
+                            <div class="box-img">
+                                <img src="img/tomato.svg" alt="">
+                            </div>
+                            <label for="tomato">tomato ($15)</label>
+                            <input id="tomato" type="checkbox" value="15">
+                        </li>
+
+                        <li class="ingredient">
+                            <div class="box-img">
+                                <img src="img/fried-egg.svg" alt="">
+                            </div>
+                            <label for="egg">egg ($10)</label>
+                            <input id="egg" type="checkbox" value="10">
+                        </li>
+
+                        <li class="ingredient">
+                            <div class="box-img">
+                                <img src="img/lettuce.svg" alt="">
+                            </div>
+                            <label for="lettuce">lettuce ($10)</label>
+                            <input id="lettuce" type="checkbox" value="10">
+                        </li>
+
+                        <li class="ingredient">
+                            <div class="box-img">
+                                <img src="img/mustard.svg" alt="">
+                            </div>
+                            <label for="mustard">mustard ($5)</label>
+                            <input id="mustard" type="checkbox" value="5">
+                        </li>
+
+                        <li class="ingredient">
+                            <div class="box-img">
+                                <img src="img/ketchup.svg" alt="">
+                            </div>
+                            <label for="ketchup">ketchup ($5)</label>
+                            <input id="ketchup" type="checkbox" value="5">
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- FINE ingredienti -->
+
+                <!-- INIZIO coupon -->
+                <div id="coupon">
+                    <label for="coupon"><strong>Discount Coupon</strong></label>
+                    <input id="coupon" type="text" placeholder="12354ABCDEF">
+                </div>
+                <!-- FINE coupon -->
+
+                <!-- INIZIO bottone calcolatore -->
+                <div class="bottoni">
+        
+                    <button id="bottone-calcolatore">Calcola</button>
+        
+                </div>
+                <!-- FINE bottone calcolatore -->
+
+            </section>
+        </main>
+        <!-- FINE MAIN -->
+
+        <!-- INIZIO FOOTER -->
+        <footer>
+            <div class="background-footer">
+                <div class="your-price">Your Price</div>
+                <div class="prezzo">$ 50</div>
+            </div>
+        </footer>
+        <!-- FINE FOOTER -->
+
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

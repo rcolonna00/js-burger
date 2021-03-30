@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: teal;
+}
+
+.container{
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+}
+
+img{
+    width: 100%;
+}
+
+/* HEADER */
+.background_header{
+    padding: 30px 0 15px 20px;
+    background-color: #fdbc41;
+}
+/* FINE HEADER */
+
+/* MAIN */
+/*nome burger*/
+#burger{
+    padding: 25px;
+}
+
+#ingredienti{
+    padding: 25px 0;
+}
+
+#burger h3{
+    padding-bottom: 20px;
+}
+
+#burger li{
+    list-style-type: none;
+}
+
+#nome-burger{
+    font-size: 20px;
+    width: 100%;
+    padding: 12px;
+}
+
+.ingredients{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ingredient{
+    display: flex;
+    align-items: center;
+    width: calc(100% / 2);
+    padding-bottom: 15px;
+}
+
+.box-img{
+    width: 50px;
+    margin-right: 10px;
+}
+/*fine nome burger*/
+
+/*coupon*/
+#coupon input{
+    width: 55%;
+}
+/*fine coupon*/
+
+/*bottone calcolatore*/
+#bottone-calcolatore{
+    padding: 25px 0;
+}
+
+.setup-bottone-calcolatore{
+    background-color: #fdbc41;
+    width: 90px;
+    line-height: 35px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/*seconda scelta*/
+.bottoni{
+    text-align: center;
+    padding: 25px 0 10px 0;
+}
+
+.bottoni #bottone-calcolatore{
+    padding: 10px 15px;
+    background-color: #fdbc41;
+    border-color: #fdbc41;
+    border-radius: 5px;
+}
+/*fine bottone calcolatore*/
+/* FINE MAIN */
+
+/*FOOTER*/
+.background-footer{
+    display: flex;
+    height: 50px;
+    background-color: #d23359;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding: 0 25px;
+    font-size: larger;
+}
+
+
+
+/*FINE FOOTER*/
