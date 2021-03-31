@@ -27,6 +27,9 @@ img{
 /* FINE HEADER */
 
 /* MAIN */
+main{
+    overflow-y: auto;
+}
 /*nome burger*/
 #burger{
     padding: 25px;
