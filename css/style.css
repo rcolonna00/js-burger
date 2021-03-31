@@ -12,6 +12,7 @@ body{
     width: 50%;
     height: 100vh;
     background-color: white;
+    position: relative;
 }
 
 img{
@@ -103,6 +104,13 @@ img{
 /* FINE MAIN */
 
 /*FOOTER*/
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+}
+
 .background-footer{
     display: flex;
     height: 50px;
@@ -113,7 +121,4 @@ img{
     padding: 0 25px;
     font-size: larger;
 }
-
-
-
 /*FINE FOOTER*/
